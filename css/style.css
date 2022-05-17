@@ -1,0 +1,29 @@
+/* Carousel */
+section.image-carousel .carousel-inner.carousel-item {
+  max-height: 100vh;
+}
+section.image-carousel .carousel-inner .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+/* Products */
+section.products {
+  padding: 5px 0;
+}
+section.products .col-lg-9 .card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+/* Blog */
+section.tiles-card {
+  padding: 5px 0;
+}
+/* Offers */
+.card {
+  padding: 3px;
+  margin: 0 0 3px 0;
+}
+.card i {
+  padding: 4px 0 0 3px;
+}
